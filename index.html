@@ -1,196 +1,22 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fr">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Portfolio de Badara, développeur Web & Mobile.">
-  <meta name="author" content="Badara">
-  <meta property="og:title" content="Badara | Développeur Web & Mobile">
-  <meta property="og:description" content="Portfolio de Badara, développeur Web & Mobile.">
-  <meta property="og:type" content="website">
-  <title>Badara | Développeur Web & Mobile</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-  <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-<header class="header">
-  <nav class="navbar container">
-    <a href="#home" class="logo">BADARA<span>.</span></a>
-    <div class="nav-right">
-      <div class="nav-menu" id="nav-menu">
-        <button class="nav-close" id="nav-close" aria-label="Fermer le menu"><i class="fa-solid fa-xmark"></i></button>
-        <a href="#home" class="nav-link active" data-i18n="nav_home">Accueil</a>
-        <a href="#about" class="nav-link" data-i18n="nav_about">À propos</a>
-        <a href="#skills" class="nav-link" data-i18n="nav_skills">Compétences</a>
-        <a href="#projects" class="nav-link" data-i18n="nav_projects">Projets</a>
-        <a href="#services" class="nav-link" data-i18n="nav_services">Services</a>
-        <a href="#contact" class="nav-link" data-i18n="nav_contact">Contact</a>
-        <div class="mobile-language-label">Language / Langue</div>
-        <div class="language-switcher mobile-language-switcher" aria-label="Choisir la langue">
-          <button class="language-btn active" data-lang="fr">FR</button>
-          <button class="language-btn" data-lang="en">EN</button>
-          <button class="language-btn" data-lang="es">ES</button>
-        </div>
-      </div>
-      <div class="desktop-language-switcher language-switcher" aria-label="Choisir la langue">
-        <button class="language-btn active" data-lang="fr">FR</button>
-        <button class="language-btn" data-lang="en">EN</button>
-        <button class="language-btn" data-lang="es">ES</button>
-      </div>
-      <button class="theme-btn" id="theme-btn" aria-label="Changer le thème"><i class="fa-solid fa-moon"></i></button>
-      <button class="nav-toggle" id="nav-toggle" aria-label="Ouvrir le menu"><i class="fa-solid fa-bars"></i></button>
-    </div>
-  </nav>
-</header>
-
-<main>
-<section class="hero section" id="home">
-  <div class="container hero-container">
-    <div class="hero-content reveal">
-      <span class="hero-small" data-i18n="hero_greeting">Bonjour, je suis</span>
-      <h1>Badara</h1>
-      <h2 data-i18n="hero_role">Développeur Web & Mobile</h2>
-      <p class="hero-description" data-i18n="hero_description">Je transforme des idées en expériences numériques modernes, rapides et intuitives.</p>
-      <div class="hero-buttons">
-        <a href="#projects" class="btn btn-primary"><span data-i18n="hero_projects">Voir mes projets</span><i class="fa-solid fa-arrow-right"></i></a>
-        <a href="#contact" class="btn btn-outline"><span data-i18n="hero_contact">Me contacter</span></a>
-      </div>
-      <div class="hero-socials">
-        <a href="#" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
-        <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
-        <a href="#" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
-      </div>
-    </div>
-    <div class="hero-visual reveal">
-      <div class="code-card">
-        <div class="code-header"><span></span><span></span><span></span></div>
-        <div class="code-content">
-          <p><span class="code-purple">const</span> developer =</p>
-          <p class="code-indent">{</p>
-          <p class="code-indent-2">name: <span class="code-green">"Badara"</span>,</p>
-          <p class="code-indent-2">role: <span class="code-green">"Web & Mobile"</span>,</p>
-          <p class="code-indent-2">passion: <span class="code-green">"Coding"</span></p>
-          <p class="code-indent">};</p>
-          <p class="code-cursor">_</p>
-        </div>
-      </div>
-    </div>
-  </div>
-  <a href="#about" class="scroll-down"><span data-i18n="scroll">Découvrir</span><i class="fa-solid fa-arrow-down"></i></a>
-</section>
-
-<section class="section about" id="about">
-  <div class="container">
-    <div class="section-heading reveal"><span class="section-number">01</span><div><span class="section-label" data-i18n="about_label">À PROPOS</span><h2 data-i18n="about_title">Qui suis-je ?</h2></div></div>
-    <div class="about-grid">
-      <div class="about-text reveal">
-        <p class="about-intro" data-i18n="about_intro">Je suis Badara, développeur Web & Mobile passionné par la création de solutions numériques utiles, modernes et performantes.</p>
-        <p data-i18n="about_text">J'aime transformer des problèmes complexes en interfaces simples et intuitives. Mon objectif est de créer des produits qui offrent une excellente expérience utilisateur tout en restant propres, rapides et maintenables.</p>
-        <a href="#contact" class="text-link"><span data-i18n="about_contact">Parlons de votre projet</span><i class="fa-solid fa-arrow-right"></i></a>
-      </div>
-      <div class="about-cards reveal">
-        <div class="info-card"><i class="fa-solid fa-code"></i><h3>Web</h3><p data-i18n="about_web">Sites et applications web modernes.</p></div>
-        <div class="info-card"><i class="fa-solid fa-mobile-screen-button"></i><h3>Mobile</h3><p data-i18n="about_mobile">Applications mobiles intuitives et performantes.</p></div>
-        <div class="info-card"><i class="fa-solid fa-lightbulb"></i><h3 data-i18n="about_solution">Solutions</h3><p data-i18n="about_solutions">Des solutions adaptées à vos besoins.</p></div>
-        <div class="info-card"><i class="fa-solid fa-rocket"></i><h3 data-i18n="about_performance">Performance</h3><p data-i18n="about_performance_text">Des interfaces rapides et optimisées.</p></div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="section skills" id="skills">
-  <div class="container">
-    <div class="section-heading reveal"><span class="section-number">02</span><div><span class="section-label" data-i18n="skills_label">COMPÉTENCES</span><h2 data-i18n="skills_title">Mes technologies</h2></div></div>
-    <div class="skills-grid reveal">
-      <div class="skill-card"><i class="fa-brands fa-html5"></i><h3>HTML5</h3><p>Semantic & Accessible</p></div>
-      <div class="skill-card"><i class="fa-brands fa-css3-alt"></i><h3>CSS3</h3><p>Responsive & Modern UI</p></div>
-      <div class="skill-card"><i class="fa-brands fa-js"></i><h3>JavaScript</h3><p>Interactive Web</p></div>
-      <div class="skill-card"><i class="fa-brands fa-react"></i><h3>React</h3><p>Modern Interfaces</p></div>
-      <div class="skill-card"><i class="fa-brands fa-node-js"></i><h3>Node.js</h3><p>Backend & APIs</p></div>
-      <div class="skill-card"><i class="fa-brands fa-git-alt"></i><h3>Git</h3><p>Version Control</p></div>
-      <div class="skill-card"><i class="fa-solid fa-database"></i><h3>Database</h3><p>SQL & NoSQL</p></div>
-      <div class="skill-card"><i class="fa-solid fa-mobile-screen"></i><h3>Mobile</h3><p>Cross-platform</p></div>
-    </div>
-  </div>
-</section>
-
-<section class="section projects" id="projects">
-  <div class="container">
-    <div class="section-heading reveal"><span class="section-number">03</span><div><span class="section-label" data-i18n="projects_label">PROJETS</span><h2 data-i18n="projects_title">Quelques réalisations</h2></div></div>
-    <div class="projects-grid">
-      <article class="project-card reveal">
-        <div class="project-image project-one"><span>01</span></div>
-        <div class="project-content"><span class="project-type">Web Application</span><h3 data-i18n="project1_title">Application de gestion</h3><p data-i18n="project1_description">Une application web moderne permettant de gérer efficacement les données et les utilisateurs.</p><div class="project-tech"><span>HTML</span><span>CSS</span><span>JavaScript</span></div><div class="project-links"><a href="#" aria-label="GitHub"><i class="fa-brands fa-github"></i></a><a href="#" aria-label="Live Demo"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></div></div>
-      </article>
-      <article class="project-card reveal">
-        <div class="project-image project-two"><span>02</span></div>
-        <div class="project-content"><span class="project-type">Mobile App</span><h3 data-i18n="project2_title">Application mobile</h3><p data-i18n="project2_description">Une application mobile pensée pour offrir une expérience simple et intuitive.</p><div class="project-tech"><span>Flutter</span><span>Dart</span><span>API</span></div><div class="project-links"><a href="#" aria-label="GitHub"><i class="fa-brands fa-github"></i></a><a href="#" aria-label="Live Demo"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></div></div>
-      </article>
-      <article class="project-card reveal">
-        <div class="project-image project-three"><span>03</span></div>
-        <div class="project-content"><span class="project-type">Website</span><h3 data-i18n="project3_title">Site vitrine</h3><p data-i18n="project3_description">Un site professionnel responsive conçu pour présenter une activité et convertir les visiteurs.</p><div class="project-tech"><span>HTML</span><span>CSS</span><span>JavaScript</span></div><div class="project-links"><a href="#" aria-label="GitHub"><i class="fa-brands fa-github"></i></a><a href="#" aria-label="Live Demo"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></div></div>
-      </article>
-    </div>
-  </div>
-</section>
-
-<section class="section services" id="services">
-  <div class="container">
-    <div class="section-heading reveal"><span class="section-number">04</span><div><span class="section-label" data-i18n="services_label">SERVICES</span><h2 data-i18n="services_title">Ce que je peux faire</h2></div></div>
-    <div class="services-grid">
-      <div class="service-card reveal"><span class="service-number">01</span><i class="fa-solid fa-laptop-code"></i><h3 data-i18n="service_web">Développement Web</h3><p data-i18n="service_web_text">Création de sites et applications web modernes, responsive et performants.</p></div>
-      <div class="service-card reveal"><span class="service-number">02</span><i class="fa-solid fa-mobile-screen-button"></i><h3 data-i18n="service_mobile">Développement Mobile</h3><p data-i18n="service_mobile_text">Création d'applications mobiles modernes et adaptées aux besoins des utilisateurs.</p></div>
-      <div class="service-card reveal"><span class="service-number">03</span><i class="fa-solid fa-palette"></i><h3 data-i18n="service_ui">UI & Intégration</h3><p data-i18n="service_ui_text">Transformation de maquettes en interfaces propres, accessibles et responsives.</p></div>
-    </div>
-  </div>
-</section>
-
-<section class="section journey" id="journey">
-  <div class="container">
-    <div class="section-heading reveal"><span class="section-number">05</span><div><span class="section-label" data-i18n="journey_label">PARCOURS</span><h2 data-i18n="journey_title">Mon parcours</h2></div></div>
-    <div class="timeline reveal">
-      <div class="timeline-item"><span class="timeline-dot"></span><div class="timeline-content"><span data-i18n="timeline1_date">Aujourd'hui</span><h3 data-i18n="timeline1_title">Développeur Web & Mobile</h3><p data-i18n="timeline1_text">Conception et développement de solutions numériques modernes.</p></div></div>
-      <div class="timeline-item"><span class="timeline-dot"></span><div class="timeline-content"><span data-i18n="timeline2_date">Formation</span><h3 data-i18n="timeline2_title">Développement informatique</h3><p data-i18n="timeline2_text">Apprentissage des technologies web, mobile et des bonnes pratiques de développement.</p></div></div>
-    </div>
-  </div>
-</section>
-
-<section class="section contact" id="contact">
-  <div class="container">
-    <div class="contact-box reveal">
-      <div class="contact-info">
-        <span class="section-label" data-i18n="contact_label">CONTACT</span>
-        <h2 data-i18n="contact_title">Construisons quelque chose ensemble.</h2>
-        <p data-i18n="contact_text">Vous avez une idée, un projet ou une opportunité ? N'hésitez pas à me contacter.</p>
-        <div class="contact-links">
-          <a href="mailto:tonemail@example.com"><i class="fa-solid fa-envelope"></i><span>tonemail@example.com</span></a>
-          <a href="#"><i class="fa-brands fa-whatsapp"></i><span>WhatsApp</span></a>
-          <a href="#"><i class="fa-brands fa-linkedin"></i><span>LinkedIn</span></a>
-        </div>
-      </div>
-      <form class="contact-form" id="contact-form">
-        <div class="form-group"><label for="name" data-i18n="form_name">Nom</label><input type="text" id="name" name="name" placeholder="Votre nom" required></div>
-        <div class="form-group"><label for="email" data-i18n="form_email">Email</label><input type="email" id="email" name="email" placeholder="votre@email.com" required></div>
-        <div class="form-group"><label for="message" data-i18n="form_message">Message</label><textarea id="message" name="message" rows="5" placeholder="Votre message..." required></textarea></div>
-        <button type="submit" class="btn btn-primary"><span data-i18n="form_send">Envoyer le message</span><i class="fa-solid fa-paper-plane"></i></button>
-      </form>
-    </div>
-  </div>
-</section>
-</main>
-
-<footer class="footer">
-  <div class="container footer-content">
-    <a href="#home" class="logo">BADARA<span>.</span></a>
-    <p>© <span id="year"></span> Badara. <span data-i18n="footer">Tous droits réservés.</span></p>
-    <div class="footer-socials"><a href="#"><i class="fa-brands fa-github"></i></a><a href="#"><i class="fa-brands fa-linkedin-in"></i></a><a href="#"><i class="fa-brands fa-whatsapp"></i></a></div>
-  </div>
-</footer>
-
-<button class="back-to-top" id="back-to-top" aria-label="Retour en haut"><i class="fa-solid fa-arrow-up"></i></button>
-<script src="js/script.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portfolio de Badara, développeur Web & Mobile." />
+    <meta name="author" content="Badara" />
+    <meta property="og:title" content="Badara | Développeur Web & Mobile" />
+    <meta property="og:description" content="Portfolio de Badara, développeur Web & Mobile." />
+    <meta property="og:type" content="website" />
+    <title>Badara | Développeur Web & Mobile</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
 </html>

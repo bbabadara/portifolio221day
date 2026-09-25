@@ -25,7 +25,17 @@ const translations = {
     services_label:"SERVICIOS",services_title:"Lo que puedo hacer",service_web:"Desarrollo Web",service_web_text:"Creación de sitios y aplicaciones web modernas, responsive y eficientes.",service_mobile:"Desarrollo Móvil",service_mobile_text:"Creación de aplicaciones móviles modernas adaptadas a las necesidades de los usuarios.",service_ui:"UI e Integración",service_ui_text:"Transformación de diseños en interfaces limpias, accesibles y responsive.",
     journey_label:"TRAYECTORIA",journey_title:"Mi trayectoria",timeline1_date:"Actualmente",timeline1_title:"Desarrollador Web y Móvil",timeline1_text:"Diseño y desarrollo de soluciones digitales modernas.",timeline2_date:"Formación",timeline2_title:"Desarrollo Informático",timeline2_text:"Aprendizaje de tecnologías web, móviles y buenas prácticas de desarrollo.",
     contact_label:"CONTACTO",contact_title:"Construyamos algo juntos.",contact_text:"¿Tienes una idea, un proyecto o una oportunidad? No dudes en contactarme.",form_name:"Nombre",form_email:"Correo electrónico",form_message:"Mensaje",form_send:"Enviar mensaje",footer:"Todos los derechos reservados."
-  }
+  },
+  ar: {
+    nav_home:"الرئيسية",nav_about:"عنّي",nav_skills:"المهارات",nav_projects:"المشاريع",nav_services:"الخدمات",nav_contact:"اتصل بي",
+    hero_greeting:"مرحباً، أنا",hero_role:"مطور ويب وجوال",hero_description:"أحول الأفكار إلى تجارب رقمية حديثة، سريعة وسهلة الاستخدام.",hero_projects:"شاهد مشاريعي",hero_contact:"اتصل بي",scroll:"اكتشف",
+    about_label:"عنّي",about_title:"من أنا؟",about_intro:"أنا بادارا، مطور ويب وجوال متحمس لبناء حلول رقمية مفيدة، حديثة وفعالة.",about_text:"أحب تحويل المشاكل المعقدة إلى واجهات بسيطة وسهلة الاستخدام. هدفي هو إنشاء منتجات توفر تجربة مستخدم ممتازة وكبيرة، سريعة، نظيفة وسهلة الصيانة.",about_contact:"لنتحدث عن مشروعك",about_web:"مواقع وتطبيقات ويب حديثة.",about_mobile:"تطبيقات جوال بسيطة وفعالة.",about_solution:"حلول",about_solutions:"حلول مصممة حسب احتياجاتك.",about_performance:"الأداء",about_performance_text:"واجهات سريعة ومحسنة.",
+    skills_label:"المهارات",skills_title:"تقنياتي",projects_label:"المشاريع",projects_title:"بعض المشاريع",project1_title:"تطبيق إدارة",project1_description:"تطبيق ويب حديث لإدارة البيانات والمستخدمين بكفاءة.",project2_title:"تطبيق جوال",project2_description:"تطبيق جوال مصمم لتقديم تجربة بسيطة وسهلة الاستخدام.",project3_title:"موقع تجاري",project3_description:"موقع تجاري احترافي ومستجيب مصمم لعرض النشاط وتحويل الزوار.",
+    services_label:"الخدمات",services_title:"ما يمكنني فعله",service_web:"تطوير الويب",service_web_text:"إنشاء مواقع وتطبيقات ويب حديثة، مستجيبة وفعالة.",service_mobile:"تطوير الجوال",service_mobile_text:"إنشاء تطبيقات جوال حديثة مصممة لاحتياجات المستخدمين.",service_ui:"واجهة المستخدم والتكامل",service_ui_text:"تحويل التصميمات إلى واجهات نظيفة، قابلة للوصول والمستجيبة.",
+    journey_label:"المسيرة",journey_title:"مسيري",timeline1_date:"اليوم",timeline1_title:"مطور ويب وجوال",timeline1_text:"تصميم وتطوير حلول رقمية حديثة.",timeline2_date:"التعليم",timeline2_title:"تطوير البرمجيات",timeline2_text:"تعلم تقنيات الويب والجوال وممارسات التطوير الجيدة.",
+    contact_label:"اتصل بي",contact_title:"لنبني شيئًا معاً.",contact_text:"هل لديك فكرة، مشروع أو فرصة؟ لا تتردد في التواصل معي.",form_name:"الاسم",form_email:"البريد الإلكتروني",form_message:"الرسالة",form_send:"إرسال الرسالة",footer:"جميع الحقوق محفوظة."
+  },
+  
 };
 
 const languageButtons=document.querySelectorAll(".language-btn");
